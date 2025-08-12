@@ -37,7 +37,7 @@ After removing the Windows installation USB on first restart, system displayed:
 
 ## Root Cause Investigation
 - Initially suspected incorrect boot mode (UEFI vs. Legacy/CSM).
-- Updated motherboard BIOS to latest firmware (`3/20/2025`, Version `E7C84AMS.1I0`).
+- Updated motherboard (MAG X570 Tomahawk WiFi) BIOS to latest firmware (`3/20/2025`, Version `E7C84AMS.1I0`).
 - Confirmed M.2 drive was installed correctly and detected in BIOS.
 - Verified Boot Mode set to **UEFI**, CSM disabled, and drive visible under NVMe devices.
 - Still encountered installation interruption after first restart.
